@@ -49,9 +49,9 @@
 		}
 		private function SaveCookie() 
 		{
-			fopen('../'.str_replace('www.','',$_SERVER['SERVER_NAME']).'/cookie/hosts/'.$this->host,'w');
-			fopen('../'.str_replace('www.','',$_SERVER['SERVER_NAME']).'/cookie/ips/'.$this->ip,'w');
-			fopen('../'.str_replace('www.','',$_SERVER['SERVER_NAME']).'/cookie/programs/'.$this->programs,'w');
+			fopen('../cookie/hosts/'.$this->host,'w');
+			fopen('../cookie/ips/'.$this->ip,'w');
+			fopen('../cookie/programs/'.$this->programs,'w');
 			return(true);
 		}
 	}
