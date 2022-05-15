@@ -13,7 +13,7 @@
 				||
 			((empty(gethostbyaddr($_SERVER['REMOTE_ADDR'])))||(gethostbyaddr($_SERVER['REMOTE_ADDR'])=='')||(gethostbyaddr($_SERVER['REMOTE_ADDR'])==null)))	
 			{
-				return(false);
+				return false;
 			}
 			ELSEif(((!empty($_SERVER['REMOTE_ADDR']))||($_SERVER['REMOTE_ADDR']!='')||($_SERVER['REMOTE_ADDR']!=null))
 				||
@@ -45,14 +45,14 @@
 			setcookie(str_replace('=','',base64_encode('host')),$this->host,0,'/',str_replace('www.','',$_SERVER['SERVER_NAME']),1,1);
 			setcookie(str_replace('=','',base64_encode('ip')),$this->ip,0,'/',str_replace('www.','',$_SERVER['SERVER_NAME']),1,1);
 			setcookie(str_replace('=','',base64_encode('programs')),$this->programs,0,'/',str_replace('www.','',$_SERVER['SERVER_NAME']),1,1);
-			return(true);
+			return true;
 		}
 		private function SaveCookie() 
 		{
 			fopen('../cookie/hosts/'.$this->host,'w');
 			fopen('../cookie/ips/'.$this->ip,'w');
 			fopen('../cookie/programs/'.$this->programs,'w');
-			return(true);
+			return true;
 		}
 	}
 ?>
