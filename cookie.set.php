@@ -48,7 +48,7 @@
 			$net_stamp=$net_set->NetSet();			
 			$positions_set = new positions;
 			$hash_set = new hash;			
-			$dir_cookie='D:/www/'.str_replace('www.','',getenv("SERVER_NAME").'/cookie/');
+			$dir_cookie='../cookie/';
 			$coockie_math=null;
 			if(!empty($_COOKIE))
 			{
