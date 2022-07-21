@@ -13,7 +13,9 @@ if you have more relevant and useful variables to suggest, feel free to discuss.
     $_cookie_set = new cookie;
     if(($_cookie_set->catch())==true)
     {
-      header('location:/');
+        echo'<pre>';
+            print_r($_COOKIE); // print cookie 
+        echo'</pre>';
     }
     else
     {
