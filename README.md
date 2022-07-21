@@ -19,5 +19,5 @@ if you have more relevant and useful variables to suggest, feel free to discuss.
     }
     else
     {
-      echo'COOKIE SET ERROR';
+        echo'COOKIE SET ERROR';
     } 
