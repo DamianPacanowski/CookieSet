@@ -9,7 +9,6 @@ of course this can be changed in the save function SaveCookie()
 
 if you have more relevant and useful variables to suggest, feel free to discuss.
 
-<?php
     include('owner/cookie.set.php');
     $_cookie_set = new cookie;
     if(($_cookie_set->catch())==true)
@@ -20,4 +19,3 @@ if you have more relevant and useful variables to suggest, feel free to discuss.
     {
       echo'COOKIE SET ERROR';
     } 
-?>
