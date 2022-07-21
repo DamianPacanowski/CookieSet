@@ -9,7 +9,7 @@ of course this can be changed in the save function SaveCookie()
 
 if you have more relevant and useful variables to suggest, feel free to discuss.
 
-    include('owner/cookie.set.php');
+    include('../cookie.set.php');
     $_cookie_set = new cookie;
     if(($_cookie_set->catch())==true)
     {
