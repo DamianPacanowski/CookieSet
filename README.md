@@ -1,9 +1,12 @@
-# CookieSet is a class for setting cookies in the user's browser, together with saving on the server 
+# CookieSet 
+
+is a class for setting cookies in the user's browser, together with saving on the server.
+
 One of best data for this porpouse it is the data from the user himself, obtained after connecting to our server.
 
-So I created a class and called it in any file, in this example it is index.php
+I am taking three parameters from the user as basic data, user host, ip, programs, to create a cookie connection.
 
-if you have more relevant and useful variables to suggest, feel free to discuss.
+So I created a class and called it in this example:
 
     include('../cookie.set.php');
     $_cookie_set = new cookie;
@@ -17,3 +20,6 @@ if you have more relevant and useful variables to suggest, feel free to discuss.
     {
         echo'COOKIE SET ERROR';
     } 
+
+
+if you have more relevant and useful variables to suggest, feel free to discuss.
