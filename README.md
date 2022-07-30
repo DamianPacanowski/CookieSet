@@ -2,7 +2,7 @@
 
 Cookies setting is a class for creation cookies in the web server and the user's browser, using blockchain technologe.
 
-One of best data for this porpouse it is the data from the user himself, obtained after connecting to our server.
+Best data for this porpouse it is the data from the user himself, obtained after connecting to our server.
 
 I am taking three parameters from the user as basic data, user host, ip, programs, to create a cookie connection.
 
