@@ -6,7 +6,7 @@ Best data for this porpouse it is the data from the user himself, obtained after
 
 I am taking three parameters from the user as basic data, user host, ip, programs, to create a cookie connection.
 
-So I created a class and called it in this example:
+So I created a class and used it in this example:
 
     include('../cookie.set.php');
     $_cookie_set = new cookie;
