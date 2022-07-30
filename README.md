@@ -1,6 +1,6 @@
 # CookieSet 
 
-Cookies setting is a class for creation cookies in the user's browser, together with saving on the server.
+Cookies setting is a class for creation cookies in the web server and the user's browser, using blockchain technologe.
 
 One of best data for this porpouse it is the data from the user himself, obtained after connecting to our server.
 
